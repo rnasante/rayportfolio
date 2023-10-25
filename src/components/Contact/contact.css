@@ -36,6 +36,16 @@
 
 #clients {
     padding: 2rem;
+    background: rgb(204, 255, 193);
+    border-radius: 10px;
+}
+
+#myc {
+    color: rgb(46, 46, 46);
+}
+
+#mycd {
+    color: rgb(46, 46, 46);
 }
 
 .conDesc {

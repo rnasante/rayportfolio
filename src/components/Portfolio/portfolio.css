@@ -33,9 +33,10 @@
 }
 
 .portImg {
-    object-fit: cover;
+    object-fit: contain;
     height: 20rem;
     margin: 0.5rem;
+    width: 40vw;
 }
 
 .portBtn {

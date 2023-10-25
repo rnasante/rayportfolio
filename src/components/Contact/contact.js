@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import './contact.css';
-import Walmart from '../../assets/walmart.png';
+import Walmart from '../../assets/whahpng.png';
 import Adobe from '../../assets/adobe.png';
 import Microsoft from '../../assets/microsoft.png';
 import Facebook from '../../assets/facebook.png';
@@ -27,15 +27,18 @@ const Contact = () => {
     return (
         <section id="conPage">
             <div id="clients">
-                <h1 className="clientTitle">My Clients</h1>
-                <p className="clientDesc">
-                    em ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <h1 className="clientTitle" id="myc">My Clients</h1>
+                <p className="clientDesc" id="mycd">
+                    Businesses I've worked with:
                 </p>
                 <div className="clientImgs">
-                    <img src={Walmart} alt="Client" className="clientImg"/>
-                    <img src={Adobe} alt="Client" className="clientImg"/>
+                    <a href="https://weholdahand.com/">
+                        <img src={Walmart} alt="Client" className="clientImg"/>
+                    </a>
+                    
+                    {/* <img src={Adobe} alt="Client" className="clientImg"/>
                     <img src={Microsoft} alt="Client" className="clientImg"/>
-                    <img src={Facebook} alt="Client" className="clientImg"/>
+                    <img src={Facebook} alt="Client" className="clientImg"/> */}
                 </div>
             </div>
             <div id="contact">

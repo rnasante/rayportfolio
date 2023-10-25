@@ -2,10 +2,6 @@ import React from "react";
 import './portfolio.css';
 import Portfolio1 from '../../assets/hoobankpng.png';
 import Portfolio2 from '../../assets/restpng.png';
-import Portfolio3 from '../../assets/portfolio-3.png';
-import Portfolio4 from '../../assets/portfolio-4.png';
-import Portfolio5 from '../../assets/portfolio-5.png';
-import Portfolio6 from '../../assets/portfolio-6.png';
 
 const Portfolio = () => {
     return (

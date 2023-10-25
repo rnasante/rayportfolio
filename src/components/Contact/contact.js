@@ -1,9 +1,6 @@
 import React, { useRef } from "react";
 import './contact.css';
 import Walmart from '../../assets/whahpng.png';
-import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
 import FacebookIcon from '../../assets/facebook-icon.png';
 import TwitterIcon from '../../assets/twitter.png';
 import YoutIcon from '../../assets/youtube.png';

@@ -82,6 +82,16 @@
     border-radius: 5px;
 }
 
+#lnks {
+    color: white;
+}
+
+#lnks:hover {
+    color: rgb(0, 128, 0);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(0, 128, 0);
+}
+
 @media screen and (max-width: 720px) {
     .burgMenu {
         display: flex;

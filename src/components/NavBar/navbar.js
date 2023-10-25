@@ -15,6 +15,7 @@ const Navbar = () => {
                 <Link activeClass="active" to="expertise" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
                 <Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Portfolio</Link>
                 <Link activeClass="active" to="conPage" spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Clients</Link>
+                <a href="https://github.com/rnasante" id="lnks">GitHub</a>
             </div>
             <button className="desktopMenuBtn" onClick={() => {
                 document.getElementById("contact").scrollIntoView({behavior: 'smooth'});
